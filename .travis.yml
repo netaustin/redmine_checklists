@@ -20,7 +20,7 @@ before_install:
   - cp ./travis/.travis-database.yml ./.travis-database.yml
 
 script:
-  - export PLUGIN=redmine_issue_checklist
+  - export PLUGIN=redmine_checklists
   - export WORKSPACE=$(pwd)/workspace
   - export PATH_TO_PLUGIN=$(pwd)
   - export PATH_TO_REDMINE=$WORKSPACE/redmine
