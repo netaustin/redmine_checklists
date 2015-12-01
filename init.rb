@@ -47,7 +47,7 @@ Redmine::Plugin.register :redmine_checklists do
   end
 
   Redmine::Search.map do |search|
-    # search.register :checklists
+    search.register :checklists
   end
 
 end
